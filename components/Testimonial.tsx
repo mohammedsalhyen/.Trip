@@ -5,12 +5,12 @@ import Image from 'next/image';
 
 const Testimonial = () => {
     return (
-        <div className=' container  padding-container mx-auto py-10'>
+        <div className=' container  padding-container mx-auto py-10 my-10'>
             <div className='pb-8 text-center'
             data-aos="fade-zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600"
             >
                 <h2 className='font-bold text-3xl'>Testimonials</h2>
-                <p className=' text-sm'>Our clients send us bunch of smiles with our services and we love them</p>
+                <p className=' text-sm mt-5'>Our clients send us bunch of smiles with our services and we love them</p>
             </div>
             <ul className=' flex xs:flex-col sm:flex-row py-5 gap-5 overflow-hidden'>
                 {testmonials.map((testmonial)=>(
@@ -22,7 +22,7 @@ const Testimonial = () => {
                             <Star/>
                             <p className=' text-sm pt-3 pb-8'>{testmonial.comment}</p>
                         </div>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-2 mt-5'>
                             <div className=''>
                                 <Image src={testmonial.img} alt='person' width={50} height={50} className=' rounded-full'/>
                             </div>

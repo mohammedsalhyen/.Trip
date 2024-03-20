@@ -12,19 +12,19 @@ const Feature = () => {
                 <p className=" text-sm pt-3 pb-6 text-gray-400">Discover a one stop platform for more control and visibility into your cross-border trade journey</p>
             </div>
             <div className="flex justify-between items-center xs:flex-col sm:flex-row pb-6" >
-                <div className="sm:w-1/2 xs:w-full  sm:px-14  xs:py-14 sm:py-0" 
+                <div className="flex-1 flex justify-center items-center sm:px-14  xs:py-14 sm:py-0" 
                     data-aos="fade-up-left" data-aos-easing="ease-in-out" data-aos-offset="300"
                 >
-                    <div className=" image-container hero-shadow rounded-lg relative z-10">
+                    <div className=" sm:w-2/3  xs:w-full image-container hero-shadow rounded-lg relative z-10">
                         <Image src={"/Feature-img.png"} alt="Feature" width={400} height={400} />
                         <div className=" absolute top-8 left-8 hero-shadow rounded-lg w-full h-full -z-10"></div>
                     </div>
                 </div>
-                <div className="sm:w-1/2 xs:w-full xs:text-center sm:text-start" 
+                <div className="flex-1  xs:text-center sm:text-start" 
                     data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-out"  data-aos-duration="800"
                 >
                     <h2 className=" text-xl font-bold">Manage Cross-Border Payments</h2>
-                    <p className=" text-gray-400 py-5">
+                    <p className=" text-gray-400 py-5 sm:w-2/3 xs:w-full">
                         Choose to pay or get paid the way you want, no matter your
                         current arrangement. Pick the terms that suit your needs and
                         protect your business from risk.

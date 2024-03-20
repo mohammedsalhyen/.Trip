@@ -4,7 +4,7 @@ const Report = () => {
     return (
         <div>
             <div>
-                <div className='text-white  container padding-container mx-auto py-10' id='report'>
+                <div className='text-white  container padding-container mx-auto py-10 my-10' id='report'>
                     <div className='text-center py-5'
                     data-aos="fade-zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600"
                     >

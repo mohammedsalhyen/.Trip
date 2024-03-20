@@ -8,9 +8,9 @@ const About = () => {
         <div  className='container py-10 padding-container mx-auto flex xs:flex-col xs:text-center sm:text-start sm:flex-row items-center justify-between text-white '>
             <div className='py-5' data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <h1 className='text-4xl py-6 font-bold'>
-                    Who We Ary?
+                    Who We Are?
                 </h1>
-                <p className=' lg:pr-5 py-5 text-gray-300'>
+                <p className=' lg:pr-5 py-5 text-gray-300 xs:w-full sm:w-2/3'>
                     We specialize in crafting personalized travel experiences tailored to your desires. With our passion
                     for exploration and attention to detail, we're here to turn your travel dreams into unforgettable adventures.
                 </p>
